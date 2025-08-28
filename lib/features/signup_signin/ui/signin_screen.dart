@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sprints_shopping_app/core/cummon_widget/shopping_app_appbar.dart';
 import 'package:sprints_shopping_app/core/routes/routes.dart';
-import 'package:sprints_shopping_app/gen/colors.gen.dart';
 import 'package:sprints_shopping_app/generated/l10n.dart';
 import 'package:sprints_shopping_app/core/theme/text_styles.dart';
 
@@ -34,7 +33,7 @@ class _SignInScreenState extends State<SignInScreen> {
       return S.of(context).validationEmailAt;
     }
     if (!RegExp(
-      r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$',
+      r'^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$',
     ).hasMatch(value)) {
       return S.of(context).validationEmailValid;
     }

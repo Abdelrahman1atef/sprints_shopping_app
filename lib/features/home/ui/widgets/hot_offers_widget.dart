@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sprints_shopping_app/core/theme/text_styles.dart';
 import 'package:sprints_shopping_app/gen/colors.gen.dart';
-import 'package:sprints_shopping_app/gen/assets.gen.dart';
 
 import '../../../../generated/l10n.dart';
 
@@ -103,7 +102,7 @@ class HotOffersWidget extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
+            color: ColorName.blackColor.withAlpha(100),
             blurRadius: 8,
             offset: const Offset(0, 4),
           ),

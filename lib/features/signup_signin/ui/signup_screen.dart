@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sprints_shopping_app/core/cummon_widget/shopping_app_appbar.dart';
 import 'package:sprints_shopping_app/core/routes/routes.dart';
-import 'package:sprints_shopping_app/gen/colors.gen.dart';
 import 'package:sprints_shopping_app/generated/l10n.dart';
 import 'package:sprints_shopping_app/core/theme/text_styles.dart';
 
@@ -17,8 +16,9 @@ class _SignupScreenState extends State<SignupScreen> {
   final _fullNameController = TextEditingController();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
-  final _confirmPasswordController = TextEditingController();
-  
+  final _confirmPasswordController =
+      TextEditingController();
+
   bool _obscurePassword = true;
   bool _obscureConfirmPassword = true;
 
@@ -52,7 +52,7 @@ class _SignupScreenState extends State<SignupScreen> {
       return S.of(context).validationEmailAt;
     }
     if (!RegExp(
-      r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$',
+      r'^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$',
     ).hasMatch(value)) {
       return S.of(context).validationEmailValid;
     }
@@ -71,7 +71,9 @@ class _SignupScreenState extends State<SignupScreen> {
 
   String? _validateConfirmPassword(String? value) {
     if (value == null || value.isEmpty) {
-      return S.of(context).validationConfirmPasswordRequired;
+      return S
+          .of(context)
+          .validationConfirmPasswordRequired;
     }
     if (value != _passwordController.text) {
       return S.of(context).validationPasswordsNotMatch;
@@ -132,7 +134,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 40),
-              
+
               // Full Name Field
               TextFormField(
                 controller: _fullNameController,
@@ -148,10 +150,11 @@ class _SignupScreenState extends State<SignupScreen> {
                   border: const OutlineInputBorder(),
                 ),
                 validator: _validateFullName,
-                textCapitalization: TextCapitalization.words,
+                textCapitalization:
+                    TextCapitalization.words,
               ),
               const SizedBox(height: 20),
-              
+
               // Email Field
               TextFormField(
                 controller: _emailController,
@@ -170,7 +173,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 keyboardType: TextInputType.emailAddress,
               ),
               const SizedBox(height: 20),
-              
+
               // Password Field
               TextFormField(
                 controller: _passwordController,
@@ -202,7 +205,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 obscureText: _obscurePassword,
               ),
               const SizedBox(height: 20),
-              
+
               // Confirm Password Field
               TextFormField(
                 controller: _confirmPasswordController,
@@ -212,9 +215,13 @@ class _SignupScreenState extends State<SignupScreen> {
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
-                  hintText: S.of(context).confirmPasswordHint,
+                  hintText: S
+                      .of(context)
+                      .confirmPasswordHint,
                   hintStyle: TextStyles.normalText,
-                  prefixIcon: const Icon(Icons.lock_outline),
+                  prefixIcon: const Icon(
+                    Icons.lock_outline,
+                  ),
                   suffixIcon: IconButton(
                     icon: Icon(
                       _obscureConfirmPassword
@@ -234,7 +241,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 obscureText: _obscureConfirmPassword,
               ),
               const SizedBox(height: 40),
-              
+
               // Sign Up Button
               ElevatedButton(
                 onPressed: _handleSignUp,
@@ -256,7 +263,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 ),
               ),
               const SizedBox(height: 20),
-              
+
               // Sign In Link
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,

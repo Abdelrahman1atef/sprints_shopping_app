@@ -141,9 +141,8 @@ class _FeaturedProductsWidgetState
                           shape: BoxShape.circle,
                           color: _currentPage == index
                               ? ColorName.secondaryColor
-                              : Colors.white.withOpacity(
-                                  0.5,
-                                ),
+                              : ColorName.whiteColor
+                                    .withAlpha(100),
                         ),
                       ),
                     ),
@@ -187,7 +186,7 @@ class _FeaturedProductsWidgetState
                     end: Alignment.bottomCenter,
                     colors: [
                       Colors.transparent,
-                      Colors.black.withOpacity(0.7),
+                      ColorName.blackColor.withAlpha(700),
                     ],
                   ),
                 ),
