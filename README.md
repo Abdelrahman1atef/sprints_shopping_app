@@ -82,7 +82,7 @@ Before running this project, make sure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/sprints_shopping_app.git
+git clone https://github.com/Abdelrahman1atef/sprints_shopping_app.git
 cd sprints_shopping_app
 ```
 
@@ -201,8 +201,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Link**: [https://github.com/yourusername/sprints_shopping_app](https://github.com/yourusername/sprints_shopping_app)
-- **Email**: your.email@example.com
+- **GitHub Profile**: [https://github.com/Abdelrahman1atef](https://github.com/Abdelrahman1atef)
+- **Email**: andelrahman atef3221@gmail.com
+- **LinkedIn**: [Abdelrahman Atef](https://www.linkedin.com/in/abdelrahman-atef/)
 
 ---
 
