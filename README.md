@@ -156,7 +156,13 @@ lib/
 
 ## 📱 Screenshots
 
-[Add screenshots here when available]
+<img width="1344" height="2992" alt="Image" src="https://github.com/user-attachments/assets/93ef0b9e-002a-45ad-bdbc-aa27b394b12a" />
+
+<img width="1344" height="2992" alt="Image" src="https://github.com/user-attachments/assets/95f6d970-ba6d-441a-8190-2ee2a43486a6" />
+<img width="1344" height="2992" alt="Image" src="https://github.com/user-attachments/assets/d45978c1-88ed-4003-9c65-1eb9a987f5ac" />
+<img width="1344" height="2992" alt="Image" src="https://github.com/user-attachments/assets/38a6b850-ecc3-48cb-a9a5-9f3b4645def2" />
+<img width="1344" height="2992" alt="Image" src="https://github.com/user-attachments/assets/d5604ebb-f70b-43cb-96d2-b0cb151c57af" />
+<img width="1344" height="2992" alt="Image" src="https://github.com/user-attachments/assets/fc452844-f2bd-461f-ad0c-d3641082ff6d" />
 
 ## 🤝 Contributing
 
