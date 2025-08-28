@@ -1,0 +1,51 @@
+{
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+
+  "createAccount": "Create Account",
+  "welcomeBack": "Welcome Back",
+  "signInSubtitle": "Sign in to your account",
+
+  "fullName": "Full Name",
+  "fullNameHint": "Enter your full name",
+  "email": "Email",
+  "emailHint": "Enter your email",
+  "password": "Password",
+  "passwordHint": "Enter your password",
+  "confirmPassword": "Confirm Password",
+  "confirmPasswordHint": "Confirm your password",
+
+  "alreadyHaveAccount": "Already have an account? ",
+  "dontHaveAccount": "Don't have an account? ",
+  "forgotPassword": "Forgot Password?",
+
+  "success": "Success",
+  "accountCreatedSuccessfully": "Account created successfully",
+  "accountSignInSuccessfully": "Account sign-in successfully",
+  "close": "Close",
+
+  "validationFullNameRequired": "Full name is required",
+  "validationFullNameMin": "Full name must be at least 2 characters",
+  "validationFullNameUppercase": "First letter must be uppercase",
+  "validationEmailRequired": "Email is required",
+  "validationEmailAt": "Email must include @",
+  "validationEmailValid": "Please enter a valid email",
+  "validationPasswordRequired": "Password is required",
+  "validationPasswordMin": "Password must be at least 6 characters",
+  "validationConfirmPasswordRequired": "Please confirm your password",
+  "validationPasswordsNotMatch": "Passwords do not match",
+
+  "homeTitle": "Welcome to Shopping App!",
+  "homeSubtitle": "You have successfully signed in.",
+  "homeComingSoon": "Feature 3: Main Shopping Screen\n(Coming Soon)",
+
+  "welcomeTagline": "Your Premium Shopping Experience",
+
+  "ourProducts": "Our Products",
+  "featuredProducts": "Featured Products",
+  "shopOurCollection": "Shop Our Collection",
+  "hotOffers": "Hot Offers"
+
+
+
+}

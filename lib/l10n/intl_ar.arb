@@ -1,0 +1,47 @@
+{
+  "signIn": "تسجيل الدخول",
+  "signUp": "حساب جديد",
+
+  "createAccount": "إنشاء حساب",
+  "welcomeBack": "مرحباً بعودتك",
+  "signInSubtitle": "سجّل الدخول إلى حسابك",
+
+  "fullName": "الاسم الكامل",
+  "fullNameHint": "أدخل اسمك الكامل",
+  "email": "البريد الإلكتروني",
+  "emailHint": "أدخل بريدك الإلكتروني",
+  "password": "كلمة المرور",
+  "passwordHint": "أدخل كلمة المرور",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "confirmPasswordHint": "أعد إدخال كلمة المرور",
+
+  "alreadyHaveAccount": "لديك حساب بالفعل؟ ",
+  "dontHaveAccount": "ليس لديك حساب؟ ",
+  "forgotPassword": "نسيت كلمة المرور؟",
+
+  "success": "نجاح",
+  "accountCreatedSuccessfully": "تم إنشاء الحساب بنجاح",
+  "accountSignInSuccessfully": "تم تسجيل الدخول بنجاح",
+  "close": "إغلاق",
+
+  "validationFullNameRequired": "الاسم الكامل مطلوب",
+  "validationFullNameMin": "يجب أن يكون الاسم حرفين على الأقل",
+  "validationFullNameUppercase": "يجب أن يكون أوّل حرف كبيرًا",
+  "validationEmailRequired": "البريد الإلكتروني مطلوب",
+  "validationEmailAt": "يجب أن يحتوي البريد على @",
+  "validationEmailValid": "يرجى إدخال بريد إلكتروني صالح",
+  "validationPasswordRequired": "كلمة المرور مطلوبة",
+  "validationPasswordMin": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+  "validationConfirmPasswordRequired": "يرجى تأكيد كلمة المرور",
+  "validationPasswordsNotMatch": "كلمتا المرور غير متطابقتين",
+
+  "homeTitle": "مرحباً بك في تطبيق التسوق!",
+  "homeSubtitle": "تم تسجيل دخولك بنجاح.",
+  "homeComingSoon": "الميزة 3: الشاشة الرئيسية للتسوق\n(قريباً)",
+
+  "welcomeTagline": "تجربة تسوق فاخرة",
+  "ourProducts": "منتجاتنا",
+  "featuredProducts": "المنتجات المميزة",
+  "shopOurCollection": "تسوق مجموعتنا",
+  "hotOffers": "العروض الساخنة"
+}
