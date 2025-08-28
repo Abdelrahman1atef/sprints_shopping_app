@@ -202,7 +202,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **GitHub Profile**: [https://github.com/Abdelrahman1atef](https://github.com/Abdelrahman1atef)
-- **Email**: andelrahman atef3221@gmail.com
+- **Email**: andelrahmanatef3221@gmail.com
 - **LinkedIn**: [Abdelrahman Atef](https://www.linkedin.com/in/abdelrahman-atef-b1a59b24a/)
 
 ---
